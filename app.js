@@ -1,8 +1,8 @@
 
 
 function calcul(event){
-  var firstNumber = parseInt(document.querySelector('#firstNumber').value);
-  var secondNumber = parseInt(document.querySelector('#secondNumber').value);
+  var firstNumber = parseFloat(document.querySelector('#firstNumber').value);
+  var secondNumber = parseFloat(document.querySelector('#secondNumber').value);
   var operation = document.querySelector('#operation').value;
   var result; 
   
